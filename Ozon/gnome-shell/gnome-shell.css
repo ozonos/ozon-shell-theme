@@ -2238,14 +2238,14 @@ StScrollBar StButton#hhandle:active {
 }
 
 .ripple-box {
-    width: 52px;
-    height: 52px;
-    background-image: url("corner-ripple-ltr.png");
+    width: 64px;
+    height: 64px;
+    background-image: url("corner-ripple-ltr.svg");
     background-size: contain;
 }
 
 .ripple-box:rtl {
-    background-image: url("corner-ripple-rtl.png");
+    background-image: url("corner-ripple-rtl.svg");
 }
 
 .switcher-arrow {
