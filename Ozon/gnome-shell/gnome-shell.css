@@ -1317,7 +1317,10 @@ StScrollBar StButton#hhandle:active {
 .list-search-result,
 .grid-search-result .overview-icon {
     padding: 4px;
-    border: 1px solid transparent;
+    border-top: none;
+    border-bottom: 3px solid transparent;
+    border-left: none;
+    border-right: none;
     border-radius: 3px;
     text-align: center;
     transition-duration: 100ms;
@@ -1374,12 +1377,14 @@ StScrollBar StButton#hhandle:active {
     border-bottom-color: #ffffff;*/
     /*Border produces http://i.imgur.com/3Vbf6zo.png -_- */
     /* Terrible 20% opaque teal code */
-        background-image: none;
-    background-gradient-direction: none;
+    background-image: none;
+    border-color: rgba(238,238,238,1.0);
+    border-radius: 0px;
+    /*background-gradient-direction: none;
     background-color: rgba(17,170,136,0.2);
     background-gradient-start: rgba(17,170,136,0.2);
     background-gradient-end: rgba(17,170,136,0.2);
-    border-color: rgba(17,170,136,0.2);
+    border-color: rgba(17,170,136,0.2);*/
     text-shadow: none;
     /*Can we have those in purple boxes? :P */
 }
@@ -1401,6 +1406,7 @@ StScrollBar StButton#hhandle:active {
 .list-search-result:hover,
 .grid-search-result:hover .overview-icon {
     color: rgba(238,238,238,1.0);
+    border-radius: 3px;
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(17,170,136,1.0);
