@@ -1378,7 +1378,7 @@ StScrollBar StButton#hhandle:active {
     /*Border produces http://i.imgur.com/3Vbf6zo.png -_- */
     /* Terrible 20% opaque teal code */
     background-image: none;
-    border-color: rgba(238,238,238,1.0);
+    border-color: rgba(17,170,136,1.0);
     border-radius: 0px;
     /*background-gradient-direction: none;
     background-color: rgba(17,170,136,0.2);
