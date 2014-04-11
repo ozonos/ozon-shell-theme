@@ -2259,8 +2259,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .ripple-box {
-    width: 64px;
-    height: 64px;
+    width: 48px;
+    height: 48px;
     background-image: url("corner-ripple-ltr.svg");
     background-size: contain;
 }
