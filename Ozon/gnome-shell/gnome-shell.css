@@ -722,6 +722,15 @@ StScrollBar StButton#hhandle:active {
     transition-duration: 300ms;
 }
 
+#panel.in-overview,
+#panel:overview {
+    background-gradient-direction: none;
+    background-gradient-start: transparent;
+    background-gradient-end: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
 #panel.unlock-screen,
 #panel.login-screen {
     background-color: transparent;
@@ -839,7 +848,6 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-button:active,
-.panel-button:overview,
 .panel-button:focus {
     color: rgba(238,238,238,1.0);
     background-image: none;
@@ -850,6 +858,14 @@ StScrollBar StButton#hhandle:active {
     border-color: rgba(17,170,136,1.0);
     border-image: none;
     text-shadow: none;
+}
+
+.panel-button:overview {
+    background-gradient-direction: none;
+    background-gradient-start: transparent;
+    background-gradient-end: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .panel-status-button:active,
@@ -3191,4 +3207,3 @@ StScrollBar StButton#hhandle:active {
     -boxpointer-gap: 4px;
     -arrow-rise: 0;
 }
-#panel.in-overview,#panel:overview,.panel-button:overview{background-gradient-direction: none;background-gradient-start: transparent;background-gradient-end: transparent;background-color: transparent;border-color: transparent;}
