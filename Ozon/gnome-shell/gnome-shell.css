@@ -1096,7 +1096,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-start: transparent;
     background-gradient-end: transparent;
     background-color: transparent;
-    border-color: transparent;
+    border: none;
 }
 
 #dash:desktop {
