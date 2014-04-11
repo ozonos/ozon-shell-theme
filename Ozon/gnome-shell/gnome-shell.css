@@ -719,7 +719,7 @@ StScrollBar StButton#hhandle:active {
     /**/
     font-weight: bold;
     height: 2.1em;
-    transition-duration: 300ms;
+    transition-duration: 500ms;
 }
 
 #panel.in-overview,
@@ -1114,7 +1114,7 @@ StScrollBar StButton#hhandle:active {
     /**/
     box-shadow: none;
     /**/
-    transition-duration:300ms;
+    transition-duration:500ms;
 }
 
 #dash:rtl {
@@ -1367,13 +1367,21 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-well-app.running > .overview-icon {
-    background-image: none;
+    /*background: url(underscore.svg);
+    background-repeat: no-repeat;*/
+    /*Background image is bitch - if I optimise it to work for Dash it won't show on dock, if I optimise for Dock, it will look to high on Dash*/
+    /*border-style: solid;
+    border-bottom-color: #ffffff;*/
+    /*Border produces http://i.imgur.com/3Vbf6zo.png -_- */
+    /* Terrible 20% opaque teal code */
+        background-image: none;
     background-gradient-direction: none;
     background-color: rgba(17,170,136,0.2);
     background-gradient-start: rgba(17,170,136,0.2);
     background-gradient-end: rgba(17,170,136,0.2);
     border-color: rgba(17,170,136,0.2);
     text-shadow: none;
+    /*Can we have those in purple boxes? :P */
 }
 
 .app-well-app.app-folder > .overview-icon {
