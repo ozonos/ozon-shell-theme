@@ -719,7 +719,7 @@ StScrollBar StButton#hhandle:active {
     /**/
     font-weight: bold;
     height: 2.1em;
-    transition-duration: 500ms;
+    transition-duration: 300ms;
 }
 
 #panel.unlock-screen,
@@ -1080,11 +1080,8 @@ StScrollBar StButton#hhandle:active {
     font-size: 10pt;
     padding: 4px 0;
     background-image: none;
-    background-gradient-direction: none;
-    background-color: rgba(0,6,5,0);
-    background-gradient-start: rgba(0,6,5,0);
-    background-gradient-end: rgba(0,6,5,0);
-    border: 0px solid rgba(51,51,51,1.0);
+    background-color: rgba(49,55,54,1.0);
+    border: 0px solid rgba(0,0,0,0);
     border-left: 0;
     border-radius: 0 3px 3px 0;
     /*dropshadow_true
@@ -1093,6 +1090,10 @@ StScrollBar StButton#hhandle:active {
     /**/
     box-shadow: none;
     /**/
+    transition-duration:300ms;
+}
+#dash:overview{
+	background-color:rgba(0,0,0,0);
 }
 
 #dash:rtl {
