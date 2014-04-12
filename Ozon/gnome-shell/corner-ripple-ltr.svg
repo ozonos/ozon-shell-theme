@@ -1,13 +1,16 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64">
  <defs>
+  <linearGradient id="0">
+   <stop stop-color="#11aa88"/>
+   <stop offset="1" stop-color="#11aa88" stop-opacity="0"/>
+  </linearGradient>
   <clipPath>
    <rect width="36" height="36" opacity="0.3" fill="#bada55" stroke-linejoin="round" stroke-width="2"/>
   </clipPath>
-  <linearGradient id="0">
-   <stop stop-color="#11aa88"/>
-   <stop stop-opacity="0" stop-color="#11aa88" offset="1"/>
-  </linearGradient>
-  <radialGradient xlink:href="#0" id="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.6852664,0,0,1.6852665,-10.984326,-17.273975)" cx="6.518" cy="10.25" r="28.482"/>
+  <radialGradient xlink:href="#0" id="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.7929724,0,0,1.7929724,-19.145297,-36.467235)" cx="10.678" cy="20.339" r="35.695"/>
  </defs>
- <path d="M 0 0 L 0 48 C 0.67451835 48 1.3337383 47.970733 2 47.9375 L 2 2 L 47.9375 2 C 47.970733 1.3337383 48 0.67451835 48 0 L 0 0 z " fill="url(#1)"/>
+ <g>
+  <path d="M 0 0 L 0 64 C 35.22009 64 63.796506 35.547218 64 0.375 L 0 0 z " fill="url(#1)"/>
+  <path d="M 62.53125,0 C 62.002544,34.19655 34.359859,61.918465 0,62.4375 l 0,1.125 C 34.766583,63.046553 62.878017,34.925615 63.40625,0 l -0.875,0 z" fill-opacity="0.588" color="#000000" fill="#11aa88"/>
+ </g>
 </svg>
