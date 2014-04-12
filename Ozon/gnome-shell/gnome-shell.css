@@ -309,8 +309,8 @@ StScrollBar StButton#hhandle:active {
 
 .popup-separator-menu-item {
     -gradient-height: 1px;
-    -gradient-start: rgba(51,51,51,0.5);
-    -gradient-end: rgba(51,51,51,0.5);
+    -gradient-start: rgba(247,247,247,0.05);
+    -gradient-end: rgba(247,247,247,0.05);
     -margin-horizontal: 0em;
     height: 1px;
     padding: 8px 0;
