@@ -2172,7 +2172,7 @@ StScrollBar StButton#hhandle:active {
 
 .modal-dialog-button-box {
     spacing: 21px;
-    padding-top: 50px;
+    padding-top: 2em;
 }
 
 .modal-dialog-button {
@@ -2188,7 +2188,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     font-size: 10pt;
     font-weight: bold;
-    padding-bottom: .3em;
+    padding-bottom: 1em;
 }
 
 .run-dialog-error-box {
