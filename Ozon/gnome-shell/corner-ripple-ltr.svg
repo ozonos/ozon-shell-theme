@@ -9,5 +9,5 @@
   </linearGradient>
   <radialGradient xlink:href="#0" id="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(1.6852664,0,0,1.6852665,-10.984326,-17.273975)" cx="6.518" cy="10.25" r="28.482"/>
  </defs>
- <path d="M 0 0 L 0 48 C 1.3490367 48 2.6791304 47.921634 4 47.8125 L 4 4 L 47.8125 4 C 47.921634 2.6791304 48 1.3490367 48 0 L 0 0 z " fill="url(#1)"/>
+ <path d="M 0 0 L 0 48 C 0.67451835 48 1.3337383 47.970733 2 47.9375 L 2 2 L 47.9375 2 C 47.970733 1.3337383 48 0.67451835 48 0 L 0 0 z " fill="url(#1)"/>
 </svg>
