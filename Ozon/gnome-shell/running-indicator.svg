@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64">
+ <defs>
+  <linearGradient id="0">
+   <stop stop-color="#11aa88" stop-opacity="0"/>
+   <stop offset="0.3" stop-color="#11aa88"/>
+   <stop offset="0.7" stop-color="#11aa88"/>
+   <stop offset="1" stop-color="#11aa88" stop-opacity="0"/>
+  </linearGradient>
+  <radialGradient xlink:href="#2" id="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0.56146466,0,0,0.31961518,3.7900127,117.11835)" cx="47.43" cy="167.17" r="37"/>
+  <linearGradient id="2">
+   <stop stop-color="#11aa88"/>
+   <stop offset="1" stop-color="#11aa88" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient xlink:href="#0" id="3" x1="0" x2="64" gradientUnits="userSpaceOnUse"/>
+ </defs>
+ <g transform="matrix(1.6213276,0,0,1.6213276,-431.6347,-328.55274)">
+  <g transform="translate(255.223,70.118091)">
+   <rect rx="1.92" y="132.53" x="11" height="39.474" width="39.474" opacity="0.372" fill="url(#1)"/>
+   <path d="m 0,62 0,2 64,0 0,-2 z" transform="matrix(0.6167785,0,0,0.6167785,11.000001,132.52617)" fill="url(#3)"/>
+  </g>
+ </g>
+</svg>

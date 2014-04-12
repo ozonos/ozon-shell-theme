@@ -1370,23 +1370,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-well-app.running > .overview-icon {
-    /*background: url(underscore.svg);
-    background-repeat: no-repeat;*/
-    /*Background image is bitch - if I optimise it to work for Dash it won't show on dock, if I optimise for Dock, it will look to high on Dash*/
-    /*border-style: solid;
-    border-bottom-color: #ffffff;*/
-    /*Border produces http://i.imgur.com/3Vbf6zo.png -_- */
-    /* Terrible 20% opaque teal code */
     background-image: none;
-    border-color: rgba(17,170,136,1.0);
-    border-radius: 0px;
-    /*background-gradient-direction: none;
-    background-color: rgba(17,170,136,0.2);
-    background-gradient-start: rgba(17,170,136,0.2);
-    background-gradient-end: rgba(17,170,136,0.2);
-    border-color: rgba(17,170,136,0.2);*/
-    text-shadow: none;
-    /*Can we have those in purple boxes? :P */
+    border-image: url("running-indicator.svg") 10 10 0 2;
 }
 
 .app-well-app.app-folder > .overview-icon {
@@ -1401,6 +1386,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-well-app:hover > .overview-icon,
+.app-well-app.running:hover > .overview-icon,
 .show-apps:hover > .overview-icon,
 .search-provider-icon:hover,
 .list-search-result:hover,
@@ -1413,6 +1399,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-start: rgba(17,170,136,1.0);
     background-gradient-end: rgba(17,170,136,1.0);
     border-color: rgba(17,170,136,1.0);
+    border-image: none;
     text-shadow: none;
     transition-duration: 100ms;
 }
