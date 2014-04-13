@@ -23,7 +23,7 @@
 stage {
     font-family: Open Sans;
     font-size: 10pt;
-    color: #f7f7f7;
+    color: #eee;
 }
 
 /* links */
@@ -386,8 +386,9 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(0,0,0,0.25);
-    font-weight: normal;
+    background-color: rgba(49,55,54,0.2);
+    border: none;
+    border-image: none;
     transition-duration: 100ms;
 }
 
@@ -400,7 +401,8 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
     background-color: #1a8;
-    border-color: #1a8;
+    border: none;
+    border-image: none;
 }
 
 .notification-button:focus,
@@ -411,8 +413,9 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(2,155,121,1.0);
-    border-color: rgba(2,155,121,1.0);
+    background-color: #1a8;
+    border: none;
+    border-image: none;
 }
 
 .notification-button:focus:hover,
@@ -435,8 +438,9 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(2,155,121,1.0);
-    border-color: rgba(2,155,121,1.0);
+    background-color: #1a8;
+    border: none;
+    border-image: none;
 }
 
 .app-view-control:focus {
@@ -459,8 +463,9 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(2,155,121,1.0);
-    border-color: #1a8;
+    background-color: #1a8;
+    border: none;
+    border-image: none;
 }
 
 .candidate-page-button:insensitive,
@@ -573,8 +578,8 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(49,55,54,0.1);
-    border-width: 1px;
-    border-color: rgba(0,0,0,0);
+    border: none;
+    border-image: none;
 }
 
 #searchEntry:focus,
@@ -583,8 +588,8 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(49,55,54,0.2);
-    border-width: 1px;
-    border-color: rgba(0,0,0,0);
+    border: none;
+    border-image: none;
     caret-color: #666;
     transition-duration: 100ms;
 }
@@ -2527,7 +2532,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(2,155,121,1.0);
+    background-color: #1a8;
     border-color: #1a8;
 }
 
@@ -2764,8 +2769,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(2,155,121,1.0);
-    border-color: rgba(2,155,121,1.0);
+    background-color: #1a8;
+    border-color: #1a8;
 }
 
 .login-dialog .modal-dialog-button:default:focus {
@@ -2789,8 +2794,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(2,155,121,1.0);
-    border-color: rgba(2,155,121,1.0);
+    background-color: #1a8;
+    border-color: #1a8;
 }
 
 .login-dialog .modal-dialog-button:default:insensitive {
