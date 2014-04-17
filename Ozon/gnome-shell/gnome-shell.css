@@ -266,8 +266,8 @@ StScrollBar StButton#hhandle:active {
 
 .popup-separator-menu-item {
     -gradient-height: 1px;
-    -gradient-start: rgba(255,255,255,0.2);
-    -gradient-end: rgba(255,255,255,0.2);
+    -gradient-start: rgba(255,255,255,0.1);
+    -gradient-end: rgba(255,255,255,0.1);
     -margin-horizontal: 0em;
 
     height: 1px;
@@ -288,7 +288,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu-icon {
-    icon-size: 1.09em;
+    icon-size: 1em;
 }
 
 /* Switches */
