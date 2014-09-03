@@ -156,7 +156,7 @@ StScrollBar StButton#hhandle:active {
 
 .slider {
     -slider-height: 0.2em;
-    -slider-background-color: rgba(0,0,0,0.3);
+    -slider-background-color: transparent;
     -slider-border-color: transparent;
     -slider-active-background-color: rgba(255,255,255,0.8);
     -slider-active-border-color: rgba(72,72,72,0.3);
@@ -814,7 +814,7 @@ StScrollBar StButton#hhandle:active {
 
 .system-switch-user-submenu-icon {
     icon-size: 24px;
-    border: 1px solid #8b8b8b;
+    border: 1px solid transparent;
 }
 
 .system-menu-action {
