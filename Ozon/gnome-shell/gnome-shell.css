@@ -24,6 +24,7 @@ stage {
     font-family: Open Sans;
     font-size: 10pt;
     color: #eee;
+    text-shadow: 0 0 transparent;
 }
 
 /* links */
@@ -40,6 +41,7 @@ stage {
 .app-well-menu,
 .run-dialog-error-label {
     font-size: 9pt;
+    text-shadow: 0 0 transparent;
 }
 
 /* small bold */
@@ -51,6 +53,7 @@ stage {
 .grid-search-result .overview-icon {
     font-size: 9pt;
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 /* Scroll Bars */
@@ -276,11 +279,13 @@ StScrollBar StButton#hhandle:active {
 
 .popup-alternating-menu-item:alternate {
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 .popup-status-menu-item {
     font-weight: normal;
     color: #999;
+    text-shadow: 0 0 transparent;
 }
 
 .popup-inactive-menu-item, .popup-inactive-menu-item:insensitive {
@@ -337,6 +342,7 @@ StScrollBar StButton#hhandle:active {
     font-size: 1.1em;
     font-weight: bold;
     text-align: center;
+    text-shadow: 0 0 transparent;
 }
 
 .nm-dialog-airplane-text {
@@ -354,6 +360,7 @@ StScrollBar StButton#hhandle:active {
 
 .nm-dialog-header {
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 .nm-dialog-item {
@@ -361,6 +368,7 @@ StScrollBar StButton#hhandle:active {
     border-bottom: 1px solid #313736;
     padding: 12px;
     spacing: 20px;
+    text-shadow: 0 0 transparent;
 }
 
 .nm-dialog-item:selected {
@@ -539,6 +547,7 @@ StScrollBar StButton#hhandle:active {
     selected-color: #eee;
     padding: 5px 12px 6px;
     box-shadow: none;
+    text-shadow: 0 0 transparent;
 }
 
 #searchEntry,
@@ -627,6 +636,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     height: 2.1em;
     transition-duration: 100ms;
+    text-shadow: 0 0 transparent;
 }
 
 #panel.in-overview,
@@ -709,10 +719,10 @@ StScrollBar StButton#hhandle:active {
 .panel-button {
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
-
     background-image: none;
     color: #eee;
     font-weight: bold;
+    text-shadow: 0 0 transparent;
     border: 1px solid transparent;
     border-top-width: 0;
     border-bottom-width: 0;
@@ -744,7 +754,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: #1a8;
     border-color: #1a8;
-    text-shadow: none;
+    text-shadow: 0 0 transparent;
 }
 
 .panel-button:active,
@@ -754,13 +764,14 @@ StScrollBar StButton#hhandle:active {
     background-color: #1a8;
     border-color: #1a8;
     border-image: none;
-    text-shadow: none;
+    text-shadow: 0 0 transparent;
 }
 
 .panel-button:overview {
     background-gradient-direction: none;
     background-color: transparent;
     border-color: transparent;
+    text-shadow: 0 0 transparent;
 }
 
 .panel-status-button:active,
@@ -958,7 +969,7 @@ StScrollBar StButton#hhandle:active {
 
 .messages-indicator-contents:hover {
     color: white;
-    text-shadow: black 0 2px 2px;
+    text-shadow: 0 0 transparent;
 }
 
 .messages-indicator-highlight {
@@ -986,6 +997,7 @@ StScrollBar StButton#hhandle:active {
     border: none;
     border-radius: 3px 3px 0 0;
     transition-duration:500ms;
+    text-shadow: 0 0 transparent;
 }
 
 #dash:rtl {
@@ -1062,6 +1074,7 @@ StScrollBar StButton#hhandle:active {
     color: #efefef;
     font-size: 2em;
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 .list-search-results {
@@ -1142,6 +1155,7 @@ StScrollBar StButton#hhandle:active {
 .no-frequent-applications-label {
     font-size: 18pt;
     color: #999999;
+    text-shadow: 0 0 transparent;
 }
 
 .app-folder-icon {
@@ -1163,6 +1177,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     font-size: 14pt;
     color: white;
+    text-shadow: 0 0 transparent;
 }
 
 .list-search-result-description {
@@ -1224,6 +1239,7 @@ StScrollBar StButton#hhandle:active {
 .app-well-app.running > .overview-icon {
     background-image: none;
     border-image: url("running-indicator.svg") 10 10 0 2;
+    text-shadow: 0 0 transparent;
 }
 
 .app-well-app.app-folder > .overview-icon {
@@ -1232,7 +1248,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: rgba(0,6,5,0);
     border-color: #313736;
-    text-shadow: none;
+    text-shadow: 0 0 transparent;
 }
 
 .app-well-app:hover > .overview-icon,
@@ -1248,7 +1264,7 @@ StScrollBar StButton#hhandle:active {
     background-color: #1a8;
     border-color: #1a8;
     border-image: none;
-    text-shadow: none;
+    text-shadow: 0 0 transparent;
     transition-duration: 100ms;
 }
 
@@ -1257,7 +1273,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .list-search-result:hover .list-search-result-description {
-    text-shadow: rgba(0,0,0,0.8) 0 1px 2px;
+    text-shadow: 0 0 transparent;
 }
 
 .show-apps {
@@ -1306,6 +1322,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: #1a8;
     border-color: #1a8;
+    text-shadow: 0 0 transparent;
 }
 
 /* LookingGlass */
@@ -1338,17 +1355,20 @@ StScrollBar StButton#hhandle:active {
 
 #LookingGlassDialog .notebook-tab:hover {
     color: white;
+    text-shadow: 0 0 transparent;
 }
 
 #LookingGlassDialog .notebook-tab:selected {
     border-image: none;
     color: white;
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 #LookingGlassDialog .lg-inspector-title {
     font-weight: bold;
     padding-bottom: 8px;
+    text-shadow: 0 0 transparent;
 }
 
 .lg-dialog StEntry {
@@ -1359,6 +1379,7 @@ StScrollBar StButton#hhandle:active {
 .lg-completions-text {
     font-size: .9em;
     font-style: italic;
+    text-shadow: 0 0 transparent;
 }
 
 .lg-obj-inspector-title {
@@ -1372,6 +1393,7 @@ StScrollBar StButton#hhandle:active {
     padding: 4px;
     border-radius: 3px;
     transition-duration: 100ms;
+    text-shadow: 0 0 transparent;
 }
 
 .lg-obj-inspector-button:hover {
@@ -1412,6 +1434,7 @@ StScrollBar StButton#hhandle:active {
 
 .lg-extension-name {
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 .lg-extension-meta {
@@ -1450,6 +1473,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     padding-bottom: 8px;
     padding-top: 8px;
+    text-shadow: 0 0 transparent;
 }
 
 .calendar-month-label:focus {
@@ -1503,6 +1527,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     text-align: center;
     color: #eee;
+    text-shadow: 0 0 transparent;
 }
 
 .datemenu-date-label:hover,
@@ -1515,6 +1540,7 @@ StScrollBar StButton#hhandle:active {
     text-align: center;
     width: 2.4em;
     height: 2.4em;
+    text-shadow: 0 0 transparent;
 }
 
 .calendar-day-base:hover,
@@ -1541,6 +1567,7 @@ StScrollBar StButton#hhandle:active {
 .calendar-week-number {
     color: #eee;
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 /* Hack used in lieu of border-collapse - see calendar.js */
@@ -1568,7 +1595,7 @@ StScrollBar StButton#hhandle:active {
 
 .calendar-today {
     color: #1a8;
-    text-shadow: none;
+    text-shadow: 0 0 transparent;
     font-weight: bold;
 }
 
@@ -1577,11 +1604,13 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
     background-color: #1a8;
+    text-shadow: 0 0 transparent;
 }
 
 .calendar-day-with-events {
     font-weight: bold;
     color: #eee;
+    text-shadow: 0 0 transparent;
 }
 
 .calendar-other-month-day {
@@ -1607,6 +1636,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     padding-left: 0.4em;
     padding-top: 1.2em;
+    text-shadow: 0 0 transparent;
 }
 
 .events-day-header:first-child {
@@ -1700,6 +1730,7 @@ StScrollBar StButton#hhandle:active {
 .notification, #notification-container {
     font-size: 10pt;
     width: 34em;
+    text-shadow: 0 0 transparent;
 }
 
 .notification.multi-line-notification {
@@ -1903,6 +1934,7 @@ StScrollBar StButton#hhandle:active {
     padding-left: 4px;
     font-size: 9pt;
     color: #aaa;
+    text-shadow: 0 0 transparent;
 }
 
 .chat-meta-message:rtl {
@@ -1916,6 +1948,7 @@ StScrollBar StButton#hhandle:active {
 
 .subscription-message {
     font-style: italic;
+    text-shadow: 0 0 transparent;
 }
 
 .notification StEntry {
@@ -1968,6 +2001,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     height: 2.1em;
     width: 2.1em;
+    text-shadow: 0 0 transparent;
 }
 
 /* OSD */
@@ -1975,6 +2009,7 @@ StScrollBar StButton#hhandle:active {
     text-align: center;
     font-weight: bold;
     spacing: 1em;
+    text-shadow: 0 0 transparent;
 }
 
 .osd-window .level {
@@ -2158,6 +2193,7 @@ StScrollBar StButton#hhandle:active {
     font-size: 12pt;
     font-weight: bold;
     color: #1a8;
+    text-shadow: 0 0 transparent;
 }
 
 .modal-dialog {
@@ -2192,6 +2228,7 @@ StScrollBar StButton#hhandle:active {
     font-size: 10pt;
     font-weight: bold;
     padding-bottom: 1em;
+    text-shadow: 0 0 transparent;
 }
 
 .run-dialog-error-box {
@@ -2281,6 +2318,7 @@ StScrollBar StButton#hhandle:active {
 
 .end-session-dialog-list-header {
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 .end-session-dialog-list-header:rtl {
@@ -2295,11 +2333,13 @@ StScrollBar StButton#hhandle:active {
 .end-session-dialog-app-list-item-name,
 .end-session-dialog-session-list-item-name {
     font-weight: bold;
+    text-shadow: 0 0 transparent;
 }
 
 .end-session-dialog-app-list-item-description {
     font-size: 8pt;
     color: #666;
+    text-shadow: 0 0 transparent;
 }
 
 /* ShellMountOperation Dialogs */
@@ -2350,6 +2390,7 @@ StScrollBar StButton#hhandle:active {
     padding-top: 24px;
     padding-left: 49px;
     padding-right: 32px;
+    text-shadow: 0 0 transparent;
 }
 
 .show-processes-dialog-app-list:rtl {
@@ -2383,6 +2424,7 @@ StScrollBar StButton#hhandle:active {
 
 .show-processes-dialog-app-list-item-name {
     font-size: 10pt;
+    text-shadow: 0 0 transparent;
 }
 
 /* Password or Authentication Dialog */
@@ -2404,6 +2446,7 @@ StScrollBar StButton#hhandle:active {
     font-size: 12pt;
     font-weight: bold;
     color: #1a8;
+    text-shadow: 0 0 transparent;
 }
 
 .prompt-dialog-description:rtl {
@@ -2419,11 +2462,13 @@ StScrollBar StButton#hhandle:active {
     font-size: 10pt;
     color: #ff0;
     padding-bottom: 8px;
+    text-shadow: 0 0 transparent;
 }
 
 .prompt-dialog-info-label {
     font-size: 10pt;
     padding-bottom: 8px;
+    text-shadow: 0 0 transparent;
 }
 
 .hidden {
@@ -2433,6 +2478,7 @@ StScrollBar StButton#hhandle:active {
 .prompt-dialog-null-label {
     font-size: 10pt;
     padding-bottom: 8px;
+    text-shadow: 0 0 transparent;
 }
 
 /* Polkit Dialog */
@@ -2513,6 +2559,7 @@ StScrollBar StButton#hhandle:active {
     font-size: 14pt;
     font-weight: normal;
     transition-duration: 100ms;
+    text-shadow: 0 0 transparent;
 }
 
 .keyboard-key:grayed {
@@ -2624,6 +2671,7 @@ StScrollBar StButton#hhandle:active {
     text-align: center;
     color: #666;
     padding-bottom: 1em;
+    text-shadow: 0 0 transparent;
 }
 
 .login-dialog-title {
@@ -2631,6 +2679,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     color: #666;
     padding-bottom: 2em;
+    text-shadow: 0 0 transparent;
 }
 
 .login-dialog {
@@ -2656,6 +2705,7 @@ StScrollBar StButton#hhandle:active {
 .login-dialog-user-list-item {
     border-radius: 5px;
     padding: .2em;
+    text-shadow: 0 0 transparent;
 }
 
 .login-dialog-user-list-item:ltr {
@@ -2698,6 +2748,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     color: #666;
     padding-top: 1em;
+    text-shadow: 0 0 transparent;
 }
 
 .login-dialog-user-selection-box {
@@ -2719,7 +2770,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     text-align: left;
     padding-left: 15px;
-    text-shadow: black 0 4px 3px 0;
+    text-shadow: 0 0 transparent;
 }
 
 .login-dialog-prompt-layout {
@@ -2733,6 +2784,7 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     font-size: 14px;
     padding-top: 11px;
+    text-shadow: 0 0 transparent;
 }
 
 .login-dialog-session-list-button StIcon {
@@ -2868,7 +2920,7 @@ StScrollBar StButton#hhandle:active {
 
 .screen-shield-clock {
     color: white;
-    text-shadow: 0 1px 2px rgba(0,0,0,0.8);
+    text-shadow: 0 0 transparent;
     font-weight: bold;
     text-align: center;
     padding-bottom: 1.5em;
@@ -2876,11 +2928,12 @@ StScrollBar StButton#hhandle:active {
 
 .screen-shield-clock-time {
     font-size: 72pt;
-    text-shadow: 0 2px 2px rgba(0,0,0,0.8);
+    text-shadow: 0 0 transparent;
 }
 
 .screen-shield-clock-date {
     font-size: 28pt;
+    text-shadow: 0 0 transparent;
 }
 
 #screenShieldNotifications {
@@ -2901,6 +2954,7 @@ StScrollBar StButton#hhandle:active {
 .screen-shield-notification-label {
     font-weight: bold;
     padding: 0 0 0 12px;
+    text-shadow: 0 0 transparent;
 }
 
 .screen-shield-notification-count-text {
@@ -2951,6 +3005,7 @@ StScrollBar StButton#hhandle:active {
    font-size: 34pt;
    width: 96px;
    height: 96px;
+   text-shadow: 0 0 transparent;
 }
 
 /* Background menu */
