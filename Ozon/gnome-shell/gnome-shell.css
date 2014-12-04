@@ -682,6 +682,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 #appMenu {
+    width: 0px;
+    height: 0px;
     spinner-image: url("process-working.svg");
     spacing: 4px;
 }
@@ -692,6 +694,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-button #appMenuIcon {
+    height: 0;
     app-icon-bottom-clip: 0;
 }
 
@@ -702,8 +705,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-menu-icon {
-    width: 24px;
-    height: 24px;
+    width: 0px;
+    height: 0px;
 }
 
 .panel-button {
@@ -1070,7 +1073,7 @@ StScrollBar StButton#hhandle:active {
 
 .dash-label {
     -x-offset: 8px;
-
+   
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
