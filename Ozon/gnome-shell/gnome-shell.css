@@ -703,8 +703,8 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-menu-icon {
-    width: 0px;
-    height: 0px;
+    width: 24px;
+    height: 24px;
 }
 
 .panel-button {
