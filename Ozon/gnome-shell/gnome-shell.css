@@ -1010,11 +1010,11 @@ StScrollBar StButton#hhandle:active {
 
 .search-entry {
     color: rgba(238,238,238,0.4);
-    border-radius: 1px;
-    border-color: rgba(255,255,255,0.2);
+    border-radius: 0px;
+    border-color: rgba(255,255,255,0.0);
     width: 300px;
-    background-gradient-start: rgba(0,0,0,0.0);
-    background-gradient-end: rgba(0,0,0,0.0);
+    background-gradient-start: rgba(255,255,255,0.05);
+    background-gradient-end: rgba(255,255,255,0.05);
     background-gradient-direction: vertical;
 }
 
