@@ -682,8 +682,6 @@ StScrollBar StButton#hhandle:active {
 }
 
 #appMenu {
-    width: 0px;
-    height: 0px;
     spinner-image: url("process-working.svg");
     spacing: 4px;
 }
@@ -1010,19 +1008,33 @@ StScrollBar StButton#hhandle:active {
 
 /* Search Box */
 
-#searchEntry {
-    border-radius: 3px;
+.search-entry {
+    color: rgba(238,238,238,0.4);
+    border-radius: 1px;
+    border-color: rgba(255,255,255,0.2);
     width: 300px;
+    background-gradient-start: rgba(0,0,0,0.0);
+    background-gradient-end: rgba(0,0,0,0.0);
+    background-gradient-direction: vertical;
 }
 
 .search-entry-icon {
     icon-size: 1em;
-    color: rgba(238,238,238,0.2);
+    color: rgba(238,238,238,0.4);
 }
 
-#searchEntry:hover .search-entry-icon,
-#searchEntry:focus .search-entry-icon {
-    color: #eee;
+.search-entry:hover {
+    color: rgba(238,238,238,0.8);
+}
+.search-entry:hover .search-entry-icon,
+.search-entry:focus .search-entry-icon {
+    color: rgba(255,255,255,0.8);
+}
+
+.search-entry:focus {
+    color: rgba(255,255,255,0.75);
+    font-weight: normal;
+    transition-duration: 5ms;
 }
 
 /* Search Results */
