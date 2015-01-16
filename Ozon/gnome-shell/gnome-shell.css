@@ -1009,32 +1009,38 @@ StScrollBar StButton#hhandle:active {
 /* Search Box */
 
 .search-entry {
-    color: rgba(238,238,238,0.4);
-    border-radius: 0px;
+    color: rgba(238,238,238,0.5);
+    border-radius: 2px;
     border-color: rgba(255,255,255,0.0);
     width: 300px;
-    background-gradient-start: rgba(255,255,255,0.05);
-    background-gradient-end: rgba(255,255,255,0.05);
+    box-shadow: none;
+    background-gradient-start: rgba(255,255,255,0.1);
+    background-gradient-end: rgba(255,255,255,0.1);
     background-gradient-direction: vertical;
 }
 
 .search-entry-icon {
     icon-size: 1em;
-    color: rgba(238,238,238,0.4);
+    color: rgba(238,238,238,0.5);
 }
 
 .search-entry:hover {
-    color: rgba(238,238,238,0.8);
+    color: rgba(238,238,238,1.0);
+    background-gradient-start: rgba(255,255,255,0.2);
+    background-gradient-end: rgba(255,255,255,0.2);
+    background-gradient-direction: vertical;
 }
 .search-entry:hover .search-entry-icon,
 .search-entry:focus .search-entry-icon {
-    color: rgba(255,255,255,0.8);
+    color: rgba(255,255,255,1.0);
 }
 
 .search-entry:focus {
-    color: rgba(255,255,255,0.75);
+    color: rgba(238,238,238,1.0);
     font-weight: normal;
     transition-duration: 5ms;
+    background-gradient-start: rgba(255,255,255,0.2);
+    background-gradient-end: rgba(255,255,255,0.2);
 }
 
 /* Search Results */
