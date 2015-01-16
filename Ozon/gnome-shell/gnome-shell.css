@@ -692,7 +692,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-button #appMenuIcon {
-    height: 0;
+    height: 24;
     app-icon-bottom-clip: 0;
 }
 
