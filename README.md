@@ -12,6 +12,6 @@ Gnome 3.10 and 3.12
 
 ### Code and license
 
-Report bugs or contribute at [GitHub](https://github.com/ozonos/ozon-shell)
+Report bugs or contribute at [GitHub](https://github.com/ozonos/ozon-shell-theme)
 
 License: GPL-3.0+
