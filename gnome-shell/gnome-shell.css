@@ -21,7 +21,7 @@
 
 /* default text style */
 stage {
-    font-family: Open Sans;
+    font-family: Noto Sans;
     font-size: 10pt;
     color: #eee;
 }
@@ -74,7 +74,7 @@ StScrollView StScrollBar {
 
 StScrollBar StBin#trough {
     background-color: transparent;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 StScrollBar StButton#vhandle {
@@ -83,7 +83,7 @@ StScrollBar StButton#vhandle {
     background-color: #555;
     border-width: 1px;
     border-color: #555;
-    border-radius: 3px;
+    border-radius: 4px;
     transition-duration: 100ms;
 }
 
@@ -107,7 +107,7 @@ StScrollBar StButton#hhandle {
     background-color: #555;
     border-width: 1px;
     border-color: #555;
-    border-radius: 3px;
+    border-radius: 4px;
     transition-duration: 100ms;
 }
 
@@ -172,14 +172,14 @@ StScrollBar StButton#hhandle:active {
 
 .popup-menu-boxpointer,
 .candidate-popup-boxpointer {
-    -arrow-border-radius: 3px;
+    -arrow-border-radius: 4px;
     -arrow-border-width: 0;
     -arrow-background-color: #313736;
     -arrow-base: 21px;
     -arrow-rise: 9px;
 
     color: #eee;
-    border-radius: 3px;
+    border-radius: 4px;
     border-width: 0;
     background-color: transparent;
     border-color: transparent;
@@ -202,7 +202,7 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-gradient-direction: none;
     background-color: rgba(0,0,0,0.03);
-    box-shadow: inset 0 0 3px rgba(0,0,0,0.6);
+    box-shadow: inset 0 0 4px rgba(0,0,0,0.6);
 }
 
 .popup-sub-menu:scrolled .popup-menu-item:ltr {
@@ -303,7 +303,7 @@ StScrollBar StButton#hhandle:active {
     background-size: contain;
     background-color: rgba(233,233,233,1.0);
     border: 1px solid rgba(0,0,0,0.3);
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .toggle-switch-us:checked,
@@ -349,7 +349,7 @@ StScrollBar StButton#hhandle:active {
 
 .nm-dialog-scroll-view {
     border: 1px solid #313736;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .nm-dialog-header {
@@ -444,7 +444,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-view-control:focus {
-    padding: 3px;
+    padding: 4px;
 }
 
 .app-view-control:first-child:ltr:focus,
@@ -512,18 +512,18 @@ StScrollBar StButton#hhandle:active {
 .hotplug-notification-item,
 .app-view-controls,
 #screenShieldNotifications {
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .app-view-control:first-child:ltr,
 .app-view-control:last-child:rtl {
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px 0 0 4px;
     border-right-width: 0;
 }
 
 .app-view-control:last-child:ltr,
 .app-view-control:first-child:rtl {
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 4px 4px 0;
 }
 
 /* Entries */
@@ -532,7 +532,6 @@ StScrollBar StButton#hhandle:active {
 .login-dialog StEntry,
 .notification StEntry,
 .modal-dialog StEntry {
-    font-size: 10pt;
     caret-color: #666;
     caret-size: 1px;
     selection-background-color: #1a8;
@@ -574,6 +573,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 #searchEntry {
+    font-size: 10pt;
     color: rgba(238,238,238,0.2);
     background-image: none;
     background-gradient-direction: none;
@@ -598,7 +598,7 @@ StScrollBar StButton#hhandle:active {
 .run-dialog-entry,
 .notification StEntry,
 .modal-dialog StEntry {
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 4px 4px;
 }
 
@@ -781,7 +781,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .panel-menu {
-    -boxpointer-gap: 3px;
+    -boxpointer-gap: 4px;
 }
 
 .panel-status-indicators-box,
@@ -854,7 +854,7 @@ StScrollBar StButton#hhandle:active {
     spacing: 11px;
     visible-width: 32px; /* Amount visible before hovering */
     border: none;
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px 0 0 4px;
     background-image: none;
     background-gradient-direction: none;
     background-color: transparent;
@@ -864,13 +864,13 @@ StScrollBar StButton#hhandle:active {
 .workspace-thumbnails:rtl {
     border-right: 1px;
     border-left: 0;
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 4px 4px 0;
     padding: 9px 9px 9px 7px;
 }
 
 .workspace-thumbnail-indicator {
     border: 2px solid #1a8;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 1px;
 }
 
@@ -883,7 +883,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: #313736;
     border: 1px solid #313736;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 2px 12px;
 }
 
@@ -907,7 +907,7 @@ StScrollBar StButton#hhandle:active {
 
 .window-clone-border {
     border: 2px solid #1a8;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .notification-close {
@@ -985,14 +985,14 @@ StScrollBar StButton#hhandle:active {
     background-image: none;
     background-color: #313736;
     border: none;
-    border-radius: 3px 3px 0 0;
+    border-radius: 4px 4px 0 0;
     transition-duration:500ms;
 }
 
 #dash:rtl {
     border-left: 1px;
     border-right: 0;
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px 0 0 4px;
 }
 
 .placeholder {
@@ -1010,7 +1010,7 @@ StScrollBar StButton#hhandle:active {
 
 .search-entry {
     color: rgba(238,238,238,0.5);
-    border-radius: 2px;
+    border-radius: 4px;
     border-color: rgba(255,255,255,0.0);
     width: 300px;
     box-shadow: none;
@@ -1086,7 +1086,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .list-search-results {
-    spacing: 3px;
+    spacing: 4px;
 }
 
 .dash-label {
@@ -1097,7 +1097,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: #313736;
     border: 1px solid #313736;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 2px 12px;
     text-align: center;
 }
@@ -1211,10 +1211,10 @@ StScrollBar StButton#hhandle:active {
 .grid-search-result .overview-icon {
     padding: 4px;
     border-top: none;
-    border-bottom: 3px solid transparent;
+    border-bottom: 4px solid transparent;
     border-left: none;
     border-right: none;
-    border-radius: 3px;
+    border-radius: 4px;
     text-align: center;
     transition-duration: 100ms;
 }
@@ -1224,7 +1224,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-folder-popup {
-    -arrow-border-radius: 3px;
+    -arrow-border-radius: 4px;
     -arrow-border-width: 0;
     -arrow-background-color: #313736;
     -arrow-border-color: #313736;
@@ -1232,7 +1232,7 @@ StScrollBar StButton#hhandle:active {
     -arrow-rise: 9px;
 
     color: #eee;
-    border-radius: 3px;
+    border-radius: 4px;
     border-width: 0;
     background-color: transparent;
     border-color: transparent;
@@ -1263,7 +1263,7 @@ StScrollBar StButton#hhandle:active {
 .list-search-result:hover,
 .grid-search-result:hover .overview-icon {
     color: #eee;
-    border-radius: 3px;
+    border-radius: 4px;
     background-image: none;
     background-gradient-direction: none;
     background-color: #1a8;
@@ -1274,7 +1274,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-display .app-well-app > .overview-icon {
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .list-search-result:hover .list-search-result-description {
@@ -1336,12 +1336,12 @@ StScrollBar StButton#hhandle:active {
     spacing: 4px;
     padding: 4px;
     border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 #LookingGlassDialog > #Toolbar {
     border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 #LookingGlassDialog .labels {
@@ -1391,7 +1391,7 @@ StScrollBar StButton#hhandle:active {
     background-color: rgba(0,0,0,0.2);
     border: 1px solid rgba(0,0,0,0.2);
     padding: 4px;
-    border-radius: 3px;
+    border-radius: 4px;
     transition-duration: 100ms;
 }
 
@@ -1427,7 +1427,7 @@ StScrollBar StButton#hhandle:active {
 
 .lg-extension {
     border: 1px solid #666;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 4px;
 }
 
@@ -1442,7 +1442,7 @@ StScrollBar StButton#hhandle:active {
 #LookingGlassPropertyInspector {
     background: rgba(0,0,0,0.8);
     border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 6px;
 }
 
@@ -1707,7 +1707,7 @@ StScrollBar StButton#hhandle:active {
 
 .notification {
     color: #eee;
-    border-radius: 3px 3px 0 0;
+    border-radius: 4px 4px 0 0;
     background-image: none;
     background-gradient-direction: none;
     background-color: #313736;
@@ -1743,7 +1743,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .summary-boxpointer {
-    -arrow-border-radius: 3px;
+    -arrow-border-radius: 4px;
     -arrow-border-width: 0;
     -boxpointer-gap: 6px;
     -arrow-background-color: #313736;
@@ -1752,14 +1752,14 @@ StScrollBar StButton#hhandle:active {
     -arrow-rise: 9px;
 
     color: #eee;
-    border-radius: 3px;
+    border-radius: 4px;
     border-width: 0;
     background-color: transparent;
     border-color: transparent;
 }
 
 .summary-boxpointer .notification {
-    border-radius: 3px;
+    border-radius: 4px;
     background-gradient-direction: none !important;
     padding-bottom: 12px;
     border-width: 0;
@@ -1810,7 +1810,7 @@ StScrollBar StButton#hhandle:active {
 .notification-button {
     -st-natural-width: 140px;
 
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 4px 42px 5px;
 }
 
@@ -1818,7 +1818,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .notification-icon-button {
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 5px;
 }
 
@@ -1841,7 +1841,7 @@ StScrollBar StButton#hhandle:active {
 
 .hotplug-notification-item {
     padding: 2px 10px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .hotplug-notification-item:focus {
@@ -1860,7 +1860,7 @@ StScrollBar StButton#hhandle:active {
 .hotplug-resident-mount {
     color: #eee;
     spacing: 8px;
-    border-radius: 3px;
+    border-radius: 4px;
     transition-duration: 100ms;
 }
 
@@ -1888,7 +1888,7 @@ StScrollBar StButton#hhandle:active {
 
 .hotplug-resident-eject-button {
     padding: 7px;
-    border-radius: 3px;
+    border-radius: 4px;
     color: #eee;
 }
 
@@ -1940,11 +1940,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .notification StEntry {
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .summary-source-button {
-    padding: 6px 3px 6px 3px;
+    padding: 6px 4px 6px 4px;
 }
 
 .summary-source-button:last-child:ltr {
@@ -1971,7 +1971,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .summary-source {
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 0 6px 0 6px;
     transition-duration: 100ms;
 }
@@ -2020,7 +2020,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: #313736;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 20px;
 }
 
@@ -2052,7 +2052,7 @@ StScrollBar StButton#hhandle:active {
 
 .switcher-list .item-box {
     padding: 8px;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .switcher-list .item-box:outlined {
@@ -2114,7 +2114,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: #313736;
     border: none;
-    border-radius: 3px;
+    border-radius: 4px;
     padding: 20px;
 }
 
@@ -2131,7 +2131,7 @@ StScrollBar StButton#hhandle:active {
     border: none;
     background-color: #1a8;
     background-image: url("ws-switch-arrow-up.png");
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .ws-switcher-active-down {
@@ -2139,14 +2139,14 @@ StScrollBar StButton#hhandle:active {
     border: none;
     background-color: #1a8;
     background-image: url("ws-switch-arrow-down.png");
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 .ws-switcher-box {
     height: 96px;
     border: 1px solid rgba(0,0,0,0.2);
     background: transparent;
-    border-radius: 3px;
+    border-radius: 4px;
 }
 
 /* Tile previews */
@@ -2182,7 +2182,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .modal-dialog {
-    border-radius: 3px;
+    border-radius: 4px;
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
@@ -2276,7 +2276,7 @@ StScrollBar StButton#hhandle:active {
 
 .end-session-dialog-logout-icon {
     border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 3px;
+    border-radius: 4px;
     width: 32px;
     height: 32px;
     background-size: contain;
@@ -2474,7 +2474,7 @@ StScrollBar StButton#hhandle:active {
 
 .polkit-dialog-user-icon {
     border: 1px solid rgba(0,0,0,0.2);
-    border-radius: 3px;
+    border-radius: 4px;
     background-size: contain;
     width: 48px;
     height: 48px;
@@ -2530,7 +2530,7 @@ StScrollBar StButton#hhandle:active {
     background-color: #555;
     border-width: 1px;
     border-color: #555;
-    border-radius: 3px;
+    border-radius: 4px;
     font-size: 14pt;
     font-weight: normal;
     transition-duration: 100ms;
@@ -2558,7 +2558,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .keyboard-subkeys {
-    -arrow-border-radius: 3px;
+    -arrow-border-radius: 4px;
     -arrow-border-width: 0;
     -boxpointer-gap: 6px;
     -arrow-background-color: #313736;
@@ -2568,7 +2568,7 @@ StScrollBar StButton#hhandle:active {
 
     color: #eee;
     padding: 4px;
-    border-radius: 3px;
+    border-radius: 4px;
     border-width: 0;
     background-color: transparent;
     border-color: transparent;
@@ -2591,13 +2591,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .candidate-box:selected {
-    border-radius: 3px;
+    border-radius: 4px;
     color: #eee;
     background-color: #1a8;
 }
 
 .candidate-box:hover {
-    border-radius: 3px;
+    border-radius: 4px;
     color: #eee;
     background-color: #1a8;
 }
@@ -2616,11 +2616,11 @@ StScrollBar StButton#hhandle:active {
 }
 
 .candidate-page-button-previous {
-    border-radius: 3px 0 0 3px;
+    border-radius: 4px 0 0 4px;
 }
 
 .candidate-page-button-next {
-    border-radius: 0 3px 3px 0;
+    border-radius: 0 4px 4px 0;
 }
 
 .candidate-page-button-icon {
@@ -2631,7 +2631,7 @@ StScrollBar StButton#hhandle:active {
 
 .framed-user-icon {
     border: 1px solid #8b8b8b;
-    border-radius: 3px;
+    border-radius: 4px;
     background-size: contain;
 }
 
@@ -2775,12 +2775,12 @@ StScrollBar StButton#hhandle:active {
 }
 
 .login-dialog .modal-dialog-button-box {
-    spacing: 3px;
+    spacing: 4px;
 }
 
 .login-dialog .modal-dialog-button {
-    border-radius: 3px;
-    padding: 3px 18px;
+    border-radius: 4px;
+    padding: 4px 18px;
 }
 
 .login-dialog .modal-dialog-button:focus {
@@ -2862,7 +2862,7 @@ StScrollBar StButton#hhandle:active {
 
 .screen-shield-background {
     background: black;
-    box-shadow: 0 3px 5px rgba(0,0,0,0.8);
+    box-shadow: 0 4px 5px rgba(0,0,0,0.8);
 }
 
 #lockDialogGroup {
