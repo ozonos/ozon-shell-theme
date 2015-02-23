@@ -684,6 +684,7 @@ StScrollBar StButton#hhandle:active {
 #appMenu {
     spinner-image: url("process-working.svg");
     spacing: 4px;
+    padding-left: 4px;
 }
 
 /* used for the app menu header only */
@@ -693,6 +694,7 @@ StScrollBar StButton#hhandle:active {
 
 .panel-button #appMenuIcon {
     height: 24;
+    width: 0px;
     app-icon-bottom-clip: 0;
 }
 
@@ -703,14 +705,13 @@ StScrollBar StButton#hhandle:active {
 }
 
 .app-menu-icon {
-    width: 24px;
-    height: 24px;
+    width: 0px;
+    height: 0px;
 }
 
 .panel-button {
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
-
     background-image: none;
     color: #eee;
     font-weight: bold;
