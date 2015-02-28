@@ -288,7 +288,7 @@ StScrollBar StButton#hhandle:active {
 }
 
 .popup-menu-icon {
-    icon-size: 1em;
+    icon-size: 16px;
 }
 
 /* Switches */
