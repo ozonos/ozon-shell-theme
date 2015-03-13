@@ -22,7 +22,7 @@
 /* default text style */
 stage {
     font-family: Noto Sans;
-    font-size: 10pt;
+    font-size: 9pt;
     color: #eee;
 }
 
@@ -625,7 +625,7 @@ StScrollBar StButton#hhandle:active {
     border-color: #313736;
     border-bottom-width: 0;
     font-weight: bold;
-    height: 2.1em;
+    height: 2.0em;
     transition-duration: 100ms;
 }
 
