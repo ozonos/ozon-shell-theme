@@ -1218,7 +1218,7 @@ StScrollBar StButton#hhandle:active {
     border-radius: 4px;
     text-align: center;
     transition-duration: 100ms;
-    text-shadow: black 0px 2px 2px;
+    text-shadow: rgba(0,0,0,0.75) 0.5px 1.5px 1px;
 }
 
 .search-provider-icon {
@@ -1247,11 +1247,13 @@ StScrollBar StButton#hhandle:active {
 .app-well-app.running > .overview-icon {
     background-image: none;
     border-image: url("running-indicator.svg") 10 10 0 2;
-    text-shadow: black 0px 2px 2px;
+    text-shadow: rgba(0,0,0,0.75) 0.5px 1.5px 1px;
 }
 
-.app-well-app.hover > .overview-icon {
-    text-shadow: black 0px 2px 2px;
+.app-well-app.hover > .overview-icon,
+.show-apps.hover > .overview-icon, {
+    color: white;
+    text-shadow: rgba(0,0,0,0.75) 0.5px 1.5px 1px;
 }
 
 .app-well-app.app-folder > .overview-icon {
