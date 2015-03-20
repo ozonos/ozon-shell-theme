@@ -1250,12 +1250,6 @@ StScrollBar StButton#hhandle:active {
     text-shadow: rgba(0,0,0,0.75) 0.5px 1.5px 1px;
 }
 
-.app-well-app.hover > .overview-icon,
-.show-apps.hover > .overview-icon, {
-    color: white;
-    text-shadow: rgba(0,0,0,0.75) 0.5px 1.5px 1px;
-}
-
 .app-well-app.app-folder > .overview-icon {
     color: #eee;
     background-image: none;
@@ -1278,8 +1272,8 @@ StScrollBar StButton#hhandle:active {
     background-color: #11aa89;
     border-color: #11aa89;
     border-image: none;
-    text-shadow: none;
     transition-duration: 100ms;
+    text-shadow: rgba(0,0,0,0.75) 0.5px 1.5px 1px;
 }
 
 .app-display .app-well-app > .overview-icon {
