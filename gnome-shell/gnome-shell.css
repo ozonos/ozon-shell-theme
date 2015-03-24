@@ -630,7 +630,7 @@ StScrollBar StButton#hhandle:active {
     font-weight: bold;
     height: 32px;
     transition-duration: 100ms;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .4);
+    box-shadow: 0 1.5px 3px rgba(0, 0, 0, .4);
 }
 
 #panel.in-overview,
@@ -981,7 +981,6 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: transparent;
     border: none;
-    box-shadow: 0 3px 6px rgba(0, 0, 0, .4);
 }
 
 #dash:desktop {
@@ -993,7 +992,7 @@ StScrollBar StButton#hhandle:active {
     border: none;
     border-radius: 4px 4px 0 0;
     transition-duration:500ms;
-    box-shadow : 0 -2px 5px 0 red;
+    box-shadow: 0 1.5px 3px rgba(0, 0, 0, .4);
 }
 
 #dash:rtl {
