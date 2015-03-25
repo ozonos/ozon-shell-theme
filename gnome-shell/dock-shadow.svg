@@ -15,7 +15,7 @@
    viewBox="0 0 49.999997 49.999997"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.48.5 r10040"
    inkscape:export-filename="/home/joern/.local/share/themes/Ozon/gnome-shell/shadow.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -66,16 +66,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="24.963693"
+     inkscape:cx="-4.411307"
      inkscape:cy="20.333565"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
      units="px"
-     inkscape:window-width="1366"
-     inkscape:window-height="701"
+     inkscape:window-width="1920"
+     inkscape:window-height="1048"
      inkscape:window-x="0"
-     inkscape:window-y="28"
+     inkscape:window-y="32"
      inkscape:window-maximized="1"
      showguides="true"
      inkscape:guide-bbox="true">
@@ -109,7 +109,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -125,17 +125,10 @@
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssssssss" />
     <path
-       style="opacity:1;fill:#31373f;fill-opacity:1;stroke:#31373f;stroke-width:1.01347196;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="opacity:1;fill:#313736;fill-opacity:1;stroke:#313736;stroke-width:1.01347195999999995;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        d="m 11.643752,1011.0474 26.71249,0 c 2.845907,0 5.137017,2.2294 5.137017,4.9987 l 0,39.8107 c 0,2.7693 -2.29111,4.9987 -5.137017,4.9987 l -26.71249,0 c -2.8459071,0 -5.1370168,-2.2294 -5.1370168,-4.9987 l 0,-39.8107 c 0,-2.7693 2.2911097,-4.9987 5.1370168,-4.9987 z"
        id="rect4333"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="sssssssss" />
-    <rect
-       style="opacity:0.183;fill:url(#linearGradient4881);fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       id="rect4873"
-       width="38"
-       height="25.142857"
-       x="6"
-       y="1027.2194" />
   </g>
 </svg>
