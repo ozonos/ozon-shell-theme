@@ -386,8 +386,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #4f4f4f;
-    border: 1px solid #4f4f4f;
+    background-color: #4a4a4a;
+    border: 1px solid #4a4a4a;
     border-radius: 10px;
     border-image: none;
     transition-duration: 100ms;
@@ -469,7 +469,7 @@ StScrollBar StButton#hhandle:active {
     background-gradient-direction: none;
     background-color: #0f9376;
     border: 1px solid #0f9376;
-    box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, .4);
+    box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.4);
     border-image: none;
 }
 
@@ -816,7 +816,8 @@ StScrollBar StButton#hhandle:active {
     color: #eee;
     border-radius: 32px; /* wish we could do 50% */
     padding: 13px;
-    border: 1px solid #4f4f4f; /* using rgba() is flaky unfortunately */
+    background-color: #4a4a4a;
+    border: 1px solid #4a4a4a; /* using rgba() is flaky unfortunately */
 }
 
 .system-menu-action:hover,
@@ -827,6 +828,20 @@ StScrollBar StButton#hhandle:active {
     background-color: #11aa89;
     border-color: #11aa89;
 }
+
+/*
+
+There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of the Gnome-Shell theming kills me.  I iz sad kitteh. 
+
+.system-menu-action:pressed {
+    color: #eee;
+    background-image: none;
+    background-gradient-direction: none;
+    background-color: #0f9376;
+    border-color: #0f9376;
+    box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.4);
+} 
+*/
 
 .system-menu-action:active {
     color: #eee;
