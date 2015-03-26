@@ -847,9 +847,9 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: #11aa89;
-    border-color: #11aa89;
-    box-shadow: 0 1px 2px -1px rgba(0, 0, 0, .32);
+    background-color: #0f9376;
+    border-color: #0f9376;
+    box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.4);
 }
 
 .system-menu-action > StIcon {
