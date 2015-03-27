@@ -1275,7 +1275,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     color: #eee;
     background-image: none;
     background-gradient-direction: none;
-    background-color: rgba(0, 6, 5, 0);
+    background-color: #313736;
     border-color: #313736;
     text-shadow: none;
 }
