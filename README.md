@@ -1,4 +1,4 @@
-Official GNOME Shell theme for [Ozon OS](https://github.com/ozonos/).
+Official GNOME Shell theme for [Ozon OS](http://ozon-os.com).
 
 ### Installation
 
@@ -8,7 +8,7 @@ The theme requires [User Theme Extension](https://extensions.gnome.org/extension
 
 ### Compatibility
 
-Gnome 3.10 and 3.12
+Gnome 3.10, 3.12, 3.14 and 3.16
 
 ### Code and license
 
