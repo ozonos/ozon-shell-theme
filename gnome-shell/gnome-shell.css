@@ -716,6 +716,7 @@ StScrollBar StButton#hhandle:active {
 .panel-button {
     -natural-hpadding: 12px;
     -minimum-hpadding: 6px;
+    box-shadow: none; /* Remove the blue underline present in 3.16 */
     background-image: none;
     color: #eee;
     font-weight: bold;
@@ -831,7 +832,7 @@ StScrollBar StButton#hhandle:active {
 
 /*
 
-There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of the Gnome-Shell theming kills me.  I iz sad kitteh. 
+There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of the Gnome-Shell theming kills me.  I iz sad kitteh.
 
 .system-menu-action:pressed {
     color: #eee;
@@ -840,7 +841,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     background-color: #0f9376;
     border-color: #0f9376;
     box-shadow: 0 1.5px 0 0 rgba(0, 0, 0, 0.4);
-} 
+}
 */
 
 .system-menu-action:active {
@@ -997,7 +998,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     background-color: transparent;
     border: none;
     padding: 10px 10px 0px 10px;
-    transition-duration:800ms; 
+    transition-duration:800ms;
 }
 
 #dash:desktop {
@@ -1013,7 +1014,7 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
 #dash:rtl {
     border-left: 1px;
     border-right: 0;
-    padding: 10px 10px;	
+    padding: 10px 10px;
     border-radius: 4px 0 0 4px;
 }
 
@@ -1265,10 +1266,20 @@ There is no ".system-menu-action:pressed" subclass. Sometmes the restrivness of 
     padding: 10px;
 }
 
+/* Not working on 3.16 anymore */
 .app-well-app.running > .overview-icon {
     background-image: none;
     border-image: url("running-indicator.svg") 10 10 0 2;
     text-shadow: rgba(0, 0, 0, .6) .5px 1.5px 1px;
+}
+
+/* Re-use the new 3.16 running indicator,
+   just change the color and width */
+.app-well-app-running-dot {
+    width: 64px;
+    height: 3px;
+    background-color: #11aa88;
+    margin-bottom: 2px;
 }
 
 .app-well-app.app-folder > .overview-icon {
